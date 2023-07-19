@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CCXC\\Form\\": "src/"
+            "Anik\\Form\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CCXC\\Form\\Test\\": "tests"
+            "Anik\\Form\\Test\\": "tests"
         }
     },
     "license": "MIT",
