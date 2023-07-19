@@ -1,0 +1,36 @@
+{
+    "name": "ccxc/form-request",
+    "description": "Form request is a package for Lumen that lets developer validate form requests like Laravel does. from ssi-anik repository",
+    "keywords": [
+        "lumen",
+        "form-request",
+        "validation"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.2|^8.0|^8.1",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10"
+    },
+    "require-dev": {
+        "anik/testbench-lumen": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CCXC\\Form\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CCXC\\Form\\Test\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Angel Romero Sarmiento",
+            "email": "mangel1196@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
